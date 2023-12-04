@@ -320,10 +320,12 @@ input[type="range"]::-webkit-slider-thumb {
                 width: 40%;
             }
             header div{
-                font-size: 1rem;
+                outline: 1px solid red;
+                font-size: .8rem;
                 width: 70%;
                 flex-direction: row;
-                gap: 1%;
+                justify-content: center;
+                gap: 1px;
             }
             main div{
                 font-size: 1rem;
