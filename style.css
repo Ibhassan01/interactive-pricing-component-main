@@ -20,6 +20,7 @@
     box-sizing: border-box;
 }
 body{
+    font-family: 'Manrope', sans-serif;
     background-color: var(--Very-Pale-Blue);
     position: relative;
     background-color: var(--Very-Pale-Blue);
@@ -54,6 +55,7 @@ header p{
     color: var(--Dark-Desaturated-Blue);
 }
 header span{
+    font-weight: 600;
     color: var(--Grayish-Blue);
     margin: 1% 0;
 }
@@ -80,6 +82,7 @@ main section{
     color: var(--Grayish-Blue);
 }
 main p{
+    font-weight: 800;
     letter-spacing: 1mm;
     color: var(--Grayish-Blue);
 }
@@ -139,6 +142,7 @@ section input{
     display: none;
 }
 footer{
+    font-weight: 600;
     border-radius: 5px;
     position: relative;
     background-color: var(--White);
@@ -161,7 +165,7 @@ footer section{
 footer button{
     margin:30px 0;
     color: var(--Grayish-Blue);
-    font-weight: 700;
+    font-weight: 600;
     border-radius: 25px;
     padding: 6% 20%;
     border: none;
@@ -172,7 +176,7 @@ footer button:hover{
     cursor: pointer;
     color: var(--White);
 }
-  /* Custom styles for the range input */
+/* Custom styles for the range input */
     input[type="range"] {
     -webkit-appearance: none;
     width: 90%;
@@ -188,7 +192,6 @@ input[type="range"]::-webkit-slider-runnable-track {
     background: var(--Soft-Cyan); 
     border-radius: 5px;
 }
-
 /* Custom thumb style */
 input[type="range"]::-webkit-slider-thumb:hover {
     box-shadow: 1px 10px 15px var(--Strong-Cyan);
